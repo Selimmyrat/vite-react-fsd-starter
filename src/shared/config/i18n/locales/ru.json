@@ -1,0 +1,44 @@
+{
+  "common": {
+    "language": "Русский",
+    "notFound": "Страница не найдена"
+  },
+  "sidebar": {
+    "nav": {
+      "playground": "Площадка",
+      "history": "История",
+      "starred": "Избранное",
+      "settings": "Настройки",
+      "models": "Модели",
+      "genesis": "Генезис",
+      "explorer": "Проводник",
+      "quantum": "Квант",
+      "documentation": "Документация",
+      "introduction": "Введение",
+      "getStarted": "Начать",
+      "tutorials": "Уроки",
+      "changelog": "Изменения",
+      "general": "Общие",
+      "team": "Команда",
+      "billing": "Оплата",
+      "limits": "Лимиты"
+    },
+    "projects": {
+      "label": "Проекты",
+      "designEngineering": "Дизайн-инженерия",
+      "salesMarketing": "Продажи и маркетинг",
+      "travel": "Путешествия",
+      "more": "Ещё"
+    },
+    "platform": "Платформа",
+    "switchTeam": "Сменить команду",
+    "searchTeam": "Поиск команды..."
+  },
+  "header": {
+    "account": "Аккаунт",
+    "billing": "Оплата",
+    "logOut": "Выйти",
+    "upgrade": "Перейти на Pro",
+    "notifications": "Уведомления"
+  }
+}

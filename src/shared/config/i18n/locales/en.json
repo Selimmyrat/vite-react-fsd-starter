@@ -1,0 +1,44 @@
+{
+  "common": {
+    "language": "English",
+    "notFound": "Page not found"
+  },
+  "sidebar": {
+    "nav": {
+      "playground": "Playground",
+      "history": "History",
+      "starred": "Starred",
+      "settings": "Settings",
+      "models": "Models",
+      "genesis": "Genesis",
+      "explorer": "Explorer",
+      "quantum": "Quantum",
+      "documentation": "Documentation",
+      "introduction": "Introduction",
+      "getStarted": "Get Started",
+      "tutorials": "Tutorials",
+      "changelog": "Changelog",
+      "general": "General",
+      "team": "Team",
+      "billing": "Billing",
+      "limits": "Limits"
+    },
+    "projects": {
+      "label": "Projects",
+      "designEngineering": "Design Engineering",
+      "salesMarketing": "Sales & Marketing",
+      "travel": "Travel",
+      "more": "More"
+    },
+    "platform": "Platform",
+    "switchTeam": "Switch team",
+    "searchTeam": "Search team..."
+  },
+  "header": {
+    "account": "Account",
+    "billing": "Billing",
+    "logOut": "Log out",
+    "upgrade": "Upgrade to Pro",
+    "notifications": "Notifications"
+  }
+}

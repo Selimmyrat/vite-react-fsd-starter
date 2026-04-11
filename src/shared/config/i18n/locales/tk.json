@@ -1,0 +1,44 @@
+{
+  "common": {
+    "language": "Turkmen",
+    "notFound": "Sahypa tapylmady"
+  },
+  "sidebar": {
+    "nav": {
+      "playground": "Oýun meýdançasy",
+      "history": "Taryh",
+      "starred": "Ýyldyzly",
+      "settings": "Sazlamalar",
+      "models": "Modeller",
+      "genesis": "Genesis",
+      "explorer": "Gözlegçi",
+      "quantum": "Kwant",
+      "documentation": "Resminamalar",
+      "introduction": "Giriş",
+      "getStarted": "Başla",
+      "tutorials": "Sapaklar",
+      "changelog": "Üýtgeşmeler",
+      "general": "Umumy",
+      "team": "Topar",
+      "billing": "Töleg",
+      "limits": "Çäkler"
+    },
+    "projects": {
+      "label": "Taslamalar",
+      "designEngineering": "Dizaýn inženerçiligi",
+      "salesMarketing": "Satuw we marketing",
+      "travel": "Syýahat",
+      "more": "Köpräk"
+    },
+    "platform": "Platforma",
+    "switchTeam": "Topary çalyş",
+    "searchTeam": "Topar gözle..."
+  },
+  "header": {
+    "account": "Hasap",
+    "billing": "Töleg",
+    "logOut": "Çykmak",
+    "upgrade": "Pro-a geç",
+    "notifications": "Bildirişler"
+  }
+}
