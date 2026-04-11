@@ -2,7 +2,7 @@ import { SidebarTrigger } from "@/shared/ui/sidebar";
 import { NavUser } from "./nav-user";
 import { sidebarData } from "@/widgets/sidebar/model/sidebar.data";
 import { ChangeLanguage } from "./change-language";
-import { ThemeSwitch } from "@/features/theme-switch";
+import { ThemeSwitch } from "./theme-switch";
 
 export function Header() {
   return (
