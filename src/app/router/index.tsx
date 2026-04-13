@@ -13,7 +13,7 @@ export function AppRouter() {
         <Route path="*" element={<NotFoundPage />} />
       </Route>
       <Route element={<AuthLayout />}>
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="login" element={<LoginPage />} />
       </Route>
     </Routes>
   );
