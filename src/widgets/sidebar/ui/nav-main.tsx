@@ -1,13 +1,13 @@
-"use client"
+"use client";
 
-import { ChevronRight, type LucideIcon } from "lucide-react"
-import { useTranslation } from "react-i18next"
+import { ChevronRight, type LucideIcon } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@/shared/ui/collapsible"
+} from "@/shared/ui/collapsible";
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -17,23 +17,23 @@ import {
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
-} from "@/shared/ui/sidebar"
+} from "@/shared/ui/sidebar";
 
 export function NavMain({
   items,
 }: {
   items: {
-    titleKey: string
-    url: string
-    icon?: LucideIcon
-    isActive?: boolean
+    titleKey: string;
+    url: string;
+    icon?: LucideIcon;
+    isActive?: boolean;
     items?: {
-      titleKey: string
-      url: string
-    }[]
-  }[]
+      titleKey: string;
+      url: string;
+    }[];
+  }[];
 }) {
-  const { t } = useTranslation("sidebar")
+  const { t } = useTranslation("sidebar");
 
   return (
     <SidebarGroup>
@@ -54,7 +54,13 @@ export function NavMain({
                   <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
                 </SidebarMenuButton>
               </CollapsibleTrigger>
-              <CollapsibleContent>
+              <CollapsibleContent
+                className="
+    overflow-hidden
+    data-[state=closed]:animate-collapsible-up
+    data-[state=open]:animate-collapsible-down
+  "
+              >
                 <SidebarMenuSub>
                   {item.items?.map((subItem) => (
                     <SidebarMenuSubItem key={subItem.titleKey}>
@@ -72,5 +78,5 @@ export function NavMain({
         ))}
       </SidebarMenu>
     </SidebarGroup>
-  )
+  );
 }
